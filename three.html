@@ -1,13 +1,14 @@
 <body>
 Enter password: <input id='password' type='text'  />
-<a href="thankyou.png" onclick="javascript:return validatePass()">enter "the password" and click this text once you think you have it.</a>
+<a href="thankyou.png" onclick="javascript:return validatePass()">enter "the password" and click this text to continue</a>
 <script>
 function validatePass(){
     if(document.getElementById('password').value == 'the password'){
         return true;
     }else{
-        alert('haHAA you're wrong, haHAA you're wrong, try again, haHAA. ');
+        alert('haHAA you're wrong, haHAA.');
         return false;
     }
 }
 </script>
+</body>
